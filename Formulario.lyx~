@@ -147,7 +147,11 @@ Legge oraria
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $s(t)=s_{0}+v_{0}t+\frac{1}{2}at^{2}$
+\begin_inset Formula 
+\[
+s(t)=s_{0}+v_{0}t+\frac{1}{2}at^{2}
+\]
+
 \end_inset
 
  
@@ -158,15 +162,11 @@ Velocità
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $v_{media}=\frac{\Delta x}{\Delta t}$
-\end_inset
+\begin_inset Formula 
+\[
+v_{media}=\frac{\Delta x}{\Delta t}\ [\frac{m}{s}]
+\]
 
- [
-\begin_inset Formula $\frac{m}{s}$
-\end_inset
-
-]
-\begin_inset Newline newline
 \end_inset
 
 
@@ -205,6 +205,18 @@ Moto circolare
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v_{tangenziale}=\omega*r$
+\end_inset
+
+ [
+\begin_inset Formula $\frac{rad}{s}$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Subsubsection
@@ -477,6 +489,55 @@ Dinamica dei sistemi di punti materiali
 
 \begin_layout Part
 Gravitazione
+\end_layout
+
+\begin_layout Subsection*
+Terza legge di Keplero (Forza esercitata da un pianeta ad un satellite senza massa)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F=\frac{4\pi^{2}}{k}*\frac{m}{r^{2}}$
+\end_inset
+
+ dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m\rightarrow$
+\end_inset
+
+ massa del pianeta
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $r\rightarrow$
+\end_inset
+
+ raggio pianeta - satellite
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $k=\frac{T^{2}}{a^{3}}$
+\end_inset
+
+,
+ T periodo,
+ semiasse maggiore
+\end_layout
+
+\begin_layout Part
+Quesiti
+\end_layout
+
+\begin_layout Standard
+Calcolare angolo tra 2 vettori
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cos(\theta)=\frac{\overset{\rightarrow}{F_{1}}*\overset{\rightarrow}{F_{2}}}{|\overset{\rightarrow}{F_{1}}||\overset{\rightarrow}{F_{2}}|}$
+\end_inset
+
+
 \end_layout
 
 \end_body

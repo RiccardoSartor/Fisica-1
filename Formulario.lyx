@@ -205,6 +205,18 @@ Moto circolare
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v_{tangenziale}=\omega*r$
+\end_inset
+
+ [
+\begin_inset Formula $\frac{rad}{s}$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Subsubsection
@@ -511,6 +523,21 @@ Terza legge di Keplero (Forza esercitata da un pianeta ad un satellite senza mas
 ,
  T periodo,
  semiasse maggiore
+\end_layout
+
+\begin_layout Part
+Quesiti
+\end_layout
+
+\begin_layout Standard
+Calcolare angolo tra 2 vettori
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $cos(\theta)=\frac{\overset{\rightarrow}{F_{1}}*\overset{\rightarrow}{F_{2}}}{|\overset{\rightarrow}{F_{1}}||\overset{\rightarrow}{F_{2}}|}$
+\end_inset
+
+
 \end_layout
 
 \end_body
