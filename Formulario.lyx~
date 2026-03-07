@@ -142,42 +142,7 @@ LatexCommand tableofcontents
 Cinematica
 \end_layout
 
-\begin_layout Subsubsection
-Legge oraria
-\end_layout
-
 \begin_layout Standard
-\begin_inset Formula 
-\[
-s(t)=s_{0}+v_{0}t+\frac{1}{2}at^{2}
-\]
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Subsubsection
-Velocità
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-v_{media}=\frac{\Delta x}{\Delta t}\ [\frac{m}{s}]
-\]
-
-\end_inset
-
-
-\begin_inset Formula $v(t)=v_{0}+at$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
 \begin_inset Formula $\omega=\frac{v}{R}$
 \end_inset
 
@@ -186,6 +151,149 @@ v_{media}=\frac{\Delta x}{\Delta t}\ [\frac{m}{s}]
 \end_inset
 
 ]
+\end_layout
+
+\begin_layout Subsubsection
+Moto rettilineo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s(t)=v*t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Moto uniformemente accelerato
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $s(t)=s_{0}+v_{0}t+\frac{1}{2}at^{2}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v(t)=v_{0}+at$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Moto armonico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A:$
+\end_inset
+
+ ampiezza 
+\begin_inset Formula $[m]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\omega:$
+\end_inset
+
+ pulsazione 
+\begin_inset Formula $[\frac{rad}{s}]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\phi:$
+\end_inset
+
+ fase iniziale 
+\begin_inset Formula $[rad]$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T:$
+\end_inset
+
+ periodo
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $\nu=\frac{1}{T}=\frac{\omega}{2\pi}:$
+\end_inset
+
+ frequenza [
+\begin_inset Formula $Hz$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+N.B.
+ Dato che 
+\begin_inset Formula $rad=\frac{\text{lunghezza arco}}{\text{raggio}}$
+\end_inset
+
+ si ha che 
+\begin_inset Formula $rad=\frac{m}{m}$
+\end_inset
+
+,
+ spesso infatti 
+\begin_inset Formula $\omega\sim\frac{1}{s}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $x(t)=A*cos(\omega t+\phi)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $a(t)=-\omega^{2}*x(t)$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|a_{max}|=A\omega^{2}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $|v_{max}|=A\omega$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -431,7 +539,7 @@ Energia Potenziale
 Energia cinetica
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 \begin_inset Formula $E_{k}=\frac{1}{2}mv^{2}$
 \end_inset
 
@@ -481,6 +589,21 @@ Moti relativi
 
 \begin_layout Part
 Oscillazioni armoniche
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\omega=\frac{2\pi}{T}$
+\end_inset
+
+ [
+\begin_inset Formula $\frac{rad}{s}$
+\end_inset
+
+] (Un'oscillazione completa corrisponde a 
+\begin_inset Formula $2\pi$
+\end_inset
+
+ radianti)
 \end_layout
 
 \begin_layout Part

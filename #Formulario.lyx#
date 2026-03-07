@@ -178,7 +178,9 @@ Vettori
 \begin_inset Formula $\vec{a}\times\vec{b}\text{ (Prodotto vettoriale)}=\begin{vmatrix}u_{x} & u_{y} & u_{z}\\
 a_{x} & a_{y} & a_{z}\\
 b_{x} & b_{y} & b_{z}
-\end{vmatrix}=u_{x}(a_{y}*b_{z}-a_{z}*b_{y})-u_{y}(a_{x}*b_{z}-a_{z}*b_{x})+u_{z}(a_{x}*b_{y}-a_{y}*b_{x})$
+\end{vmatrix}=u_{x}*\begin{vmatrix}a_{y} & a_{z}\\
+b_{y} & b_{z}
+\end{vmatrix}$
 \end_inset
 
 
