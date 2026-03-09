@@ -403,7 +403,7 @@ Moto circolare
 \end_inset
 
 
-\begin_inset Formula $v_{tangenziale}=\omega*r$
+\begin_inset Formula $v_{tangenziale}=\omega*r=\frac{2\pi R}{T}$
 \end_inset
 
  [
@@ -411,6 +411,57 @@ Moto circolare
 \end_inset
 
 ]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $v=\omega R$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $T=\frac{2\pi R}{v}$
+\end_inset
+
+ [
+\begin_inset Formula $s$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F=\frac{1}{T}$
+\end_inset
+
+ [
+\begin_inset Formula $Hz$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Legge oraria:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta(t)=\theta_{0}+\omega t$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+(Per comodità espressa in gradi)
 \end_layout
 
 \begin_layout Subsubsection
@@ -423,7 +474,16 @@ Gittata
 \end_inset
 
  
-\begin_inset Formula $\frac{v_{0}^{2}*sin(2\theta)}{g}$
+\begin_inset Formula $d=\frac{v_{0}^{2}*sin(2\theta)}{g}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+NB.
+ 
+\begin_inset Formula $sin(2\theta)=2sin(\theta)*cos(\theta)$
 \end_inset
 
 
