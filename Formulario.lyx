@@ -503,6 +503,15 @@ NB.
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+traiettoria:
+ 
+\begin_inset Formula $y(x)=y_{0}+tan(\theta_{0})x-\frac{g}{2v_{0}^{2}cos^{2}(\theta_{0})}x^{2}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -729,6 +738,39 @@ Potenza
  Watt]
 \end_layout
 
+\begin_layout Subsection
+Quantità di moto
+\end_layout
+
+\begin_layout Standard
+Quantità di moto 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\vec{p}=m*\vec{v}$
+\end_inset
+
+ [
+\begin_inset Formula $Kg*m/s=N*s$
+\end_inset
+
+],
+ [Newtown per secondo]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F_{media}=\frac{\Delta\vec{p}}{\Delta t}$
+\end_inset
+
+ [
+\begin_inset Formula $N$
+\end_inset
+
+]
+\end_layout
+
 \begin_layout Part
 Moti relativi
 \end_layout
@@ -758,6 +800,32 @@ Dinamica dei sistemi di punti materiali
 
 \begin_layout Part
 Gravitazione
+\end_layout
+
+\begin_layout Subsection*
+Interazione gravitazionale
+\end_layout
+
+\begin_layout Standard
+Quanto due corpi si attraggono
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F=\frac{m_{1}*m_{2}}{r^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+Periodo di rivoluzione
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $T=\frac{2\pi r}{v}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*

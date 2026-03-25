@@ -474,7 +474,7 @@ Gittata
 \end_inset
 
  
-\begin_inset Formula $\frac{v_{0}^{2}*sin(2\theta)}{g}$
+\begin_inset Formula $d=\frac{v_{0}^{2}*sin(2\theta)}{g}$
 \end_inset
 
 
@@ -500,6 +500,15 @@ NB.
 
 
 \begin_inset Formula $t_{volo}=\frac{2*v_{0}*sin(\theta)}{g}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+traiettoria:
+ 
+\begin_inset Formula $y(x)=y_{0}+tan(\theta_{0})x-\frac{g}{2v_{0}^{2}cos^{2}(\theta_{0})}x^{2}$
 \end_inset
 
 
@@ -727,6 +736,39 @@ Potenza
 
 ,
  Watt]
+\end_layout
+
+\begin_layout Subsection
+Quantità di moto
+\end_layout
+
+\begin_layout Standard
+Quantità di moto 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\vec{p}=m*\vec{v}$
+\end_inset
+
+ [
+\begin_inset Formula $Kg*m/s=N*s$
+\end_inset
+
+],
+ [Newtown per secondo]
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $F_{media}=\frac{\Delta\vec{p}}{\Delta t}$
+\end_inset
+
+ [
+\begin_inset Formula $N$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Part
