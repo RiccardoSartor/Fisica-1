@@ -1,5 +1,5 @@
-#LyX 2.5 created this file. For more info see https://www.lyx.org/
-\lyxformat 643
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -72,19 +72,11 @@
 \use_indices false
 \paperorientation portrait
 \suppress_date false
-\justification default
-\crossref_package refstyle
+\justification true
+\use_refstyle 1
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
-\backgroundcolor none
-\fontcolor none
-\notefontcolor lightgray
-\boxbgcolor red
-\table_border_color default
-\table_odd_row_color default
-\table_even_row_color default
-\table_alt_row_colors_start 1
 \index Index
 \shortcut idx
 \color #008000
@@ -114,7 +106,6 @@
 \html_be_strict false
 \docbook_table_output 0
 \docbook_mathml_prefix 1
-\docbook_mathml_version 0
 \end_header
 
 \begin_body
@@ -483,7 +474,7 @@ Gittata
 \end_inset
 
  
-\begin_inset Formula $d=\frac{v^{2}_{0}*sin(2\theta)}{g}$
+\begin_inset Formula $d=\frac{v_{0}^{2}*sin(2\theta)}{g}$
 \end_inset
 
 
@@ -500,7 +491,7 @@ NB.
 \end_inset
 
 
-\begin_inset Formula $h_{max}=\frac{v^{2}_{0}*sin^{2}(\theta)}{2g}$
+\begin_inset Formula $h_{max}=\frac{v_{0}^{2}*sin^{2}(\theta)}{2g}$
 \end_inset
 
 
@@ -517,7 +508,7 @@ NB.
 
 traiettoria:
  
-\begin_inset Formula $y(x)=y_{0}+tan(\theta_{0})x-\frac{g}{2v^{2}_{0}cos^{2}(\theta_{0})}x^{2}$
+\begin_inset Formula $y(x)=y_{0}+tan(\theta_{0})x-\frac{g}{2v_{0}^{2}cos^{2}(\theta_{0})}x^{2}$
 \end_inset
 
 
@@ -781,6 +772,10 @@ Quantità di moto
 \end_layout
 
 \begin_layout Part
+Moti relativi
+\end_layout
+
+\begin_layout Part
 Oscillazioni armoniche
 \end_layout
 
@@ -800,10 +795,14 @@ Oscillazioni armoniche
 \end_layout
 
 \begin_layout Part
+Dinamica dei sistemi di punti materiali
+\end_layout
+
+\begin_layout Part
 Gravitazione
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Interazione gravitazionale
 \end_layout
 
@@ -818,7 +817,7 @@ Quanto due corpi si attraggono
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Periodo di rivoluzione
 \end_layout
 
@@ -829,7 +828,7 @@ Periodo di rivoluzione
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsection*
 Terza legge di Keplero (Forza esercitata da un pianeta ad un satellite senza massa)
 \end_layout
 
@@ -867,456 +866,12 @@ Terza legge di Keplero (Forza esercitata da un pianeta ad un satellite senza mas
 Quesiti
 \end_layout
 
-\begin_layout Subsection
-Calcolo angolo tra 2 vettori
+\begin_layout Standard
+Calcolare angolo tra 2 vettori
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula $cos(\theta)=\frac{\overset{\rightarrow}{F_{1}}*\overset{\rightarrow}{F_{2}}}{|\overset{\rightarrow}{F_{1}}||\overset{\rightarrow}{F_{2}}|}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-Corpo Rigido
-\end_layout
-
-\begin_layout Subsection
-Momento d'inerzia
-\end_layout
-
-\begin_layout Standard
-Descrive quanta resistenza un corpo pone ad una rotazione [
-\begin_inset Formula $Kg*m^{2}$
-\end_inset
-
-]
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="2">
-<features borderColor="default" oddRowsColor="default" evenRowsColor="default" tabularvalignment="middle">
-<column alignment="center" valignment="top" color="default">
-<column alignment="center" valignment="top" color="default">
-<row color="default">
-<cell alignment="center" valignment="top" topline="true" leftline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Anello sottile/pto materiale
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Disco
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{2}mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row color="default">
-<cell alignment="center" valignment="top" topline="true" leftline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cilindro cavo
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Se il cilindro è cavo ma ha uno spessore rilevante 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{2}m(R^{2}_{\text{esterno}}+R^{2}_{\text{interno}})$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cilindro pieno
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{2}mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row color="default">
-<cell alignment="center" valignment="top" topline="true" leftline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sfera cava
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{2}{3}mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sfera piena
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{2}{5}mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row color="default">
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Asta sottile
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{12}mR^{2}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-Se l'asta ruota attorno ad un estremo:
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{3}mR^{2}$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" color="default" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Lastra
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Formula $I=\frac{1}{12}m(\text{larghezza}^{2}*\text{lunghezza}^{2})$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Subsection
-Momento di una forza
-\end_layout
-
-\begin_layout Standard
-Capacità di una forza di far ruotare un corpo attorno al suo asse di rotazione.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\tau=I*\alpha=F*b$
-\end_inset
-
- [
-\begin_inset Formula $N*m$
-\end_inset
-
-]
-\end_layout
-
-\begin_layout Subsection
-Momento angolare
-\end_layout
-
-\begin_layout Standard
-È la quantità di moto rotatorio di un corpo.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $L=I*\omega$
-\end_inset
-
- [
-\begin_inset Formula $Kg*\frac{m^{2}}{s}$
-\end_inset
-
-]
-\end_layout
-
-\begin_layout Subsection
-Teorema di Huygens-Steiner (CM traslato)
-\end_layout
-
-\begin_layout Standard
-Se un corpo ha un asse di rotazione non coincidente con 
-\begin_inset Formula $CM$
-\end_inset
-
-,
- allora questo va traslato come:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $I_{p}=I_{CM}+md^{2}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Dove 
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset Formula $d$
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
- è la distanza tra 
-\begin_inset Formula $P$
-\end_inset
-
- e 
-\begin_inset Formula $CM$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Pendolo (Fisico e semplice)
-\end_layout
-
-\begin_layout Standard
-Pendolo fisico:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $T=2\pi\sqrt{\frac{I_{p}}{mgd}}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Dove 
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset Formula $d$
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
- è la distanza tra 
-\begin_inset Formula $P$
-\end_inset
-
- e 
-\begin_inset Formula $CM$
-\end_inset
-
- e 
-\begin_inset Formula $I_{p}$
-\end_inset
-
- è il 
-\begin_inset Formula $CM$
-\end_inset
-
- traslato per il teorama di Huygens-Steiner
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Il pendolo fisico può essere semplificato ad un pendolo semplice ricavando la 
-\begin_inset Quotes eld
-\end_inset
-
-lunghezza ridotta
-\begin_inset Quotes erd
-\end_inset
-
-:
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $T_{\text{Pendolo fisico}}=T_{\text{Pendolo semplice}}\Rightarrow$
-\end_inset
-
-
-\begin_inset Formula $2\pi\sqrt{\frac{I_{p}}{mgd}}=2\pi\sqrt{\frac{L}{g}}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-La 
-\begin_inset Quotes eld
-\end_inset
-
-lunghezza ridotta
-\begin_inset Quotes erd
-\end_inset
-
- si trova isolando 
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset Formula $L$
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
-Quantità di moto
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $P=m*v_{CM}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Teorema dell'Impulso
-\end_layout
-
-\begin_layout Standard
-Mette in relazione la forza applicata ad un corpo con la variazione del suo stato di moto.
-\begin_inset Newline newline
-\end_inset
-
-Definisce come una forza sia in grado di cambiare la velocità di un oggetto in un certo intervallo di tempo.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $J=\Delta P=P_{f}-P_{i}$
-\end_inset
-
- (Dove 
-\begin_inset Quotes eld
-\end_inset
-
-
-\begin_inset Formula $P$
-\end_inset
-
-
-\begin_inset Quotes erd
-\end_inset
-
- è la qta di moto)
-\end_layout
-
-\begin_layout Subsection
-Energie (Gravitazionale-Cinetica)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $E_{p}=mgh_{CM}$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Formula $E_{k}=\frac{1}{2}I\omega^{2}$
 \end_inset
 
 
