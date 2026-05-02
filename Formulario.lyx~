@@ -1312,7 +1312,7 @@ Definisce come una forza sia in grado di cambiare la velocità di un oggetto in 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $J=\Delta P=P_{f}-P_{i}$
+\begin_inset Formula $J=\Delta p=p_{f}-p_{i}$
 \end_inset
 
  (Dove 
@@ -1320,7 +1320,7 @@ Definisce come una forza sia in grado di cambiare la velocità di un oggetto in 
 \end_inset
 
 
-\begin_inset Formula $P$
+\begin_inset Formula $p$
 \end_inset
 
 
