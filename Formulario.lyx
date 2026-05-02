@@ -1113,6 +1113,17 @@ Momento angolare
 \end_inset
 
 ]
+\begin_inset Newline newline
+\end_inset
+
+oppure
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L=p*d$
+\end_inset
+
+ ovvero qta di moto per il braccio 
 \end_layout
 
 \begin_layout Subsection
@@ -1171,7 +1182,11 @@ Pendolo fisico:
 \begin_inset Formula $T=2\pi\sqrt{\frac{I_{p}}{mgd}}$
 \end_inset
 
+ [
+\begin_inset Formula $s$
+\end_inset
 
+] 
 \begin_inset Newline newline
 \end_inset
 
@@ -1262,10 +1277,26 @@ Quantità di moto
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $P=m*v_{CM}$
+\begin_inset Formula $p=m*v_{CM}$
 \end_inset
 
+ [
+\begin_inset Formula $Kg*\frac{m}{s}$
+\end_inset
 
+] ,
+ [
+\begin_inset Formula $N*s$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+NB.
+ 
+\emph on
+Le due unità di misura sono identiche ed intercambiabili.
 \end_layout
 
 \begin_layout Subsection
@@ -1281,7 +1312,7 @@ Definisce come una forza sia in grado di cambiare la velocità di un oggetto in 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $J=\Delta P=P_{f}-P_{i}$
+\begin_inset Formula $J=\Delta p=p_{f}-p_{i}$
 \end_inset
 
  (Dove 
@@ -1289,7 +1320,7 @@ Definisce come una forza sia in grado di cambiare la velocità di un oggetto in 
 \end_inset
 
 
-\begin_inset Formula $P$
+\begin_inset Formula $p$
 \end_inset
 
 
