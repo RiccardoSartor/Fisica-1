@@ -1376,5 +1376,24 @@ Energie (Gravitazionale-Cinetica)
 
 \end_layout
 
+\begin_layout Subsection
+Puro rotolamento
+\end_layout
+
+\begin_layout Standard
+Perche si verifichi una sitazione di puro rotolamento deve essere verificato il seguente sistema di 3 equazioni:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\begin{cases}
+\sum F=m*a & \text{Traslazione del CM}\\
+\sum M=I_{CM}*\alpha & \text{Rotolamento attorno a CM}\\
+a=\alpha*R & \text{Vincolo di non slittamento}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
