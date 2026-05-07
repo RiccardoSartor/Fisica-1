@@ -1395,5 +1395,61 @@ a=\alpha*R & \text{Vincolo di non slittamento}
 
 \end_layout
 
+\begin_layout Part
+Fluidostatica
+\end_layout
+
+\begin_layout Standard
+Pressione Atm a livello del mare (Standard) = 
+\begin_inset Formula $1,01325*10^{5}Pa$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Pressione colonna fluido
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p=g\rho h$
+\end_inset
+
+ [
+\begin_inset Formula $Pa=\frac{N}{m^{2}}=\frac{Kg}{m*s^{2}}$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $g$
+\end_inset
+
+ è l'accelerazione di gravità
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\rho$
+\end_inset
+
+ è la densità del fluido [
+\begin_inset Formula $\frac{Kg}{m^{3}}$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $h$
+\end_inset
+
+ è l'altezza della colonna del fluido
+\end_layout
+
 \end_body
 \end_document

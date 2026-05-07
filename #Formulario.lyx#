@@ -1399,14 +1399,6 @@ a=\alpha*R & \text{Vincolo di non slittamento}
 Fluidostatica
 \end_layout
 
-\begin_layout Standard
-Pressione Atm a livello del mare (Standard) = 
-\begin_inset Formula $10^{5}Pa$
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Pressione colonna fluido
 \end_layout
