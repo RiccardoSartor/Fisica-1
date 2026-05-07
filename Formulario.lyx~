@@ -1401,7 +1401,7 @@ Fluidostatica
 
 \begin_layout Standard
 Pressione Atm a livello del mare (Standard) = 
-\begin_inset Formula $10^{5}Pa$
+\begin_inset Formula $1,01325*10^{5}Pa$
 \end_inset
 
 

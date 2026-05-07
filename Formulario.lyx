@@ -1451,5 +1451,36 @@ Dove:
  è l'altezza della colonna del fluido
 \end_layout
 
+\begin_layout Subsection
+Pressione (Martinetto idraulico)
+\end_layout
+
+\begin_layout Standard
+La pressione su un pistone è fornita come:
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p=\frac{F}{S}$
+\end_inset
+
+ ovvero Forza su Superficie
+\begin_inset Newline newline
+\end_inset
+
+Nel caso di un martinetto idraulico si ha che:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p_{1}=p_{2}$
+\end_inset
+
+ ovvero che 
+\begin_inset Formula $\frac{F_{1}}{S_{1}}=\frac{F_{2}}{S_{2}}$
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
