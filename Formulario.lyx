@@ -1405,6 +1405,14 @@ Pressione Atm a livello del mare (Standard) =
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $P=P_{\text{relativa}}+P_{\text{atmosferica}}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1477,6 +1485,249 @@ Nel caso di un martinetto idraulico si ha che:
 
  ovvero che 
 \begin_inset Formula $\frac{F_{1}}{S_{1}}=\frac{F_{2}}{S_{2}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Nel caso in cui si chieda una pressione su una parete si calcola la pressione media ovvero la pressione sul baricentro della partete.
+\end_layout
+
+\begin_layout Subsection
+Spinta di Archimede
+\end_layout
+
+\begin_layout Standard
+Un corpo riceve una spinta verticale verso l'alto pari al peso del volume di fluido spostato.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $F_{A}=-\rho V_{0}g$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Fluidodinamica
+\end_layout
+
+\begin_layout Subsection
+Portata
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Q=A*v$
+\end_inset
+
+ (
+\begin_inset Formula $\frac{l}{s}$
+\end_inset
+
+)
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A$
+\end_inset
+
+:
+ Area della sezione del tubo [
+\begin_inset Formula $m^{2}$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $v$
+\end_inset
+
+:
+ velocità di scorrimento del fluido [
+\begin_inset Formula $m/s$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Subsection
+Numero di Reynolds
+\end_layout
+
+\begin_layout Standard
+È una grandezza adimensionale definita come il rapporto delle forze d'inerzia e le forze viscose all'interno di un fluido.
+ Determina il passaggio dal regime di moto laminare (ordinato) a quello turbolento (caotico),
+ con valori bassi che indicano un flusso laminare e valori alti un flusso turbolento.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $R_{e}=\frac{\rho*v*L}{\mu}=\frac{v*L}{\nu}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\rho$
+\end_inset
+
+:
+ Densità del fluido [
+\begin_inset Formula $Kg/m^{3}$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v$
+\end_inset
+
+:
+ Velocità del fluido [
+\begin_inset Formula $m/s$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $L$
+\end_inset
+
+:
+ Lunghezza caratteristica (es.
+ diametro del tubo) [
+\begin_inset Formula $m$
+\end_inset
+
+] 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\mu$
+\end_inset
+
+:
+ Viscosità dinamica [
+\begin_inset Formula $Pa*s=m*s$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\nu$
+\end_inset
+
+:
+ Viscosità cinematica (
+\begin_inset Formula $=\frac{\mu}{\rho}$
+\end_inset
+
+) [
+\begin_inset Formula $m^{2}/s$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features borderColor="default" oddRowsColor="default" evenRowsColor="default" tabularvalignment="middle">
+<column alignment="center" valignment="top" color="default">
+<column alignment="center" valignment="top" color="default">
+<column alignment="center" valignment="top" color="default">
+<row color="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moto Laminare
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moto di Transizione
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moto Turbolento
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row color="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Re<2300$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2300\leq Re\leq4000$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Re>4000$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
 \end_inset
 
 
