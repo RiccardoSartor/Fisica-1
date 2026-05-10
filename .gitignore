@@ -1,0 +1,12 @@
+# File di backup di LyX
+*.lyx~
+
+# File di lock di LyX
+.#*.lyx#
+.*.lyx#
+
+# Eventuali file temporanei di LaTeX per l'esportazione PDF
+*.aux
+*.log
+*.out
+*.toc
