@@ -1804,5 +1804,275 @@ Il teorema (applicazione diretta del teorema di Bernoulli) afferma che:
 
 \end_layout
 
+\begin_layout Part
+Termodinamica
+\end_layout
+
+\begin_layout Standard
+Calore di un solido/liquido:
+ 
+\begin_inset Formula $Q=mcT$
+\end_inset
+
+ [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $m$
+\end_inset
+
+:
+ massa [
+\begin_inset Formula $Kg$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c$
+\end_inset
+
+:
+ Calore specifico [
+\begin_inset Formula $\frac{J}{Kg*K}$
+\end_inset
+
+] (quanta energia per cambiare di 1 grado)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+:
+ temperatura [
+\begin_inset Formula $K$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+Calore di un gas:
+ 
+\begin_inset Formula $Q=nC_{v}T$
+\end_inset
+
+ [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n$
+\end_inset
+
+:
+ numero di Moli (
+\begin_inset Formula $\sim6.022*10^{23}$
+\end_inset
+
+ particelle)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{v}:$
+\end_inset
+
+ Calore specifico molare a volume costante,
+ indica quanta energia fornire ad una mole di gas a volume costante per variare la sua temperatura di 
+\begin_inset Formula $1K$
+\end_inset
+
+ (è il calore specifico ma per i gas).
+ Varia in base al tipo di gas:
+\begin_inset Newline newline
+\end_inset
+
+Gas monoatomici:
+ 
+\begin_inset Formula $\frac{3}{2}R$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Gas biatomici:
+ 
+\begin_inset Formula $\frac{5}{2}R$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Formula $R$
+\end_inset
+
+:
+ Costante universale dei Gas,
+ vale sempre 
+\begin_inset Formula $8.314\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+:
+ Temperatura [
+\begin_inset Formula $K$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Subsection
+Equazione di Stato dei Gas Ideali
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $PV=nRT$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $P$
+\end_inset
+
+:
+ Pressione [
+\begin_inset Formula $Pa$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $V$
+\end_inset
+
+:
+ Volume [
+\begin_inset Formula $m^{3}$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $n$
+\end_inset
+
+:
+ Numero di moli
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $R$
+\end_inset
+
+:
+ Costante universale dei gas vale sempre 
+\begin_inset Formula $8.314\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+:
+ Temperatura [
+\begin_inset Formula $K$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Subsection
+I Legge della Termodinamica
+\end_layout
+
+\begin_layout Standard
+Principio universale di 
+\series bold
+conservazione dell'energia
+\series default
+:
+ questa non si crea e non distrugge.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta U=Q-W$
+\end_inset
+
+ [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta U$
+\end_inset
+
+:
+ Variazione dell'energia interna [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Q$
+\end_inset
+
+:
+ Calore [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W$
+\end_inset
+
+:
+ Lavoro [
+\begin_inset Formula $J$
+\end_inset
+
+]
+\end_layout
+
 \end_body
 \end_document
