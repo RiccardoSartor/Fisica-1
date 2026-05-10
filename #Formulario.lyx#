@@ -1928,23 +1928,6 @@ Gas biatomici:
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $C_{p}$
-\end_inset
-
-:
- Calore specifico a pressione costante,
- indica quanto necessita per innalzare di 
-\begin_inset Formula $1K$
-\end_inset
-
- la temperatura di 
-\begin_inset Formula $1$
-\end_inset
-
- mole
-\end_layout
-
-\begin_layout Itemize
 \begin_inset Formula $T$
 \end_inset
 
@@ -2218,7 +2201,15 @@ Adiabatica
 \begin_inset Newline newline
 \end_inset
 
-Trasformazione reversibile:
+Trasformazione reversibi:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+reversibile
+\series default
+:
  può in ogni istante essere riportata allo stato inziale 
 \begin_inset Formula $\rightarrow$
 \end_inset
@@ -2227,6 +2218,54 @@ Trasformazione reversibile:
  cambi di pressione,
  temperatura,
  ecc...
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+isobara
+\series default
+:
+ a pressione costante 
+\begin_inset Formula $W=P*(V_{f}-V_{i})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+isoterma
+\series default
+:
+ a temperatura costante 
+\begin_inset Formula $W=\intop^{V_{f}}_{V_{i}}\frac{nRT}{V}dV=nRT*ln(\frac{V_{f}}{V_{i}})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+isocora
+\series default
+:
+ a volume costante 
+\begin_inset Formula $Q=\Delta U=nC_{v}\Delta T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+adiabatica
+\series default
+:
+ nessuno scambio di calore con l'ambiente esterno
 \end_layout
 
 \begin_layout Subsection
