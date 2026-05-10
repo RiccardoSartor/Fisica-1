@@ -1808,6 +1808,10 @@ Il teorema (applicazione diretta del teorema di Bernoulli) afferma che:
 Termodinamica
 \end_layout
 
+\begin_layout Subsection
+Calore
+\end_layout
+
 \begin_layout Standard
 Calore di un solido/liquido:
  
@@ -2185,7 +2189,7 @@ Adiabatica
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $W=nC_{v}(T_{i}-T_{f})$
+\begin_inset Formula $W=nC_{v}(T_{f}-T_{i})$
 \end_inset
 
 
@@ -2301,18 +2305,7 @@ Dove:
 \end_layout
 
 \begin_layout Subsection
-Lavoro di una trasfomazione
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $W=\frac{P_{i}V_{i}-P_{f}V_{f}}{\gamma-1}=nC_{v}(T_{i}-T_{f})$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Leggi di Poisson
+Leggi di Poisson (Adiabatiche reversibili)
 \end_layout
 
 \begin_layout Standard
@@ -2396,7 +2389,11 @@ Dove:
 \end_inset
 
 :
- Variazione dell'energia interna [
+ Variazione dell'energia interna (
+\begin_inset Formula $\Delta U=nC_{v}(T_{f}-T_{i})$
+\end_inset
+
+) [
 \begin_inset Formula $J$
 \end_inset
 
