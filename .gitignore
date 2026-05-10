@@ -2,7 +2,7 @@
 *.lyx~
 
 # File di lock di LyX
-.#*.lyx#
+*.lyx#
 .*.lyx#
 
 # Eventuali file temporanei di LaTeX per l'esportazione PDF
