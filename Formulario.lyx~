@@ -1939,6 +1939,68 @@ Gas biatomici:
 ]
 \end_layout
 
+\begin_layout Subsubsection
+Terminologia
+\end_layout
+
+\begin_layout Standard
+Le trasformazioni possono essere:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+reversibile
+\series default
+:
+ può in ogni istante essere riportata allo stato inziale 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ non ci sono perdite di energia per attriti,
+ cambi di pressione,
+ temperatura,
+ ecc...
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+isobara
+\series default
+:
+ a pressione costante 
+\begin_inset Formula $W=P*(V_{f}-V_{i})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+isoterma
+\series default
+:
+ a temperatura costante 
+\begin_inset Formula $W=\intop^{V_{B}}_{V_{C}}\frac{nRT}{V}dV=nRT*log(\frac{V_{f}}{V_{i}})$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Contenitore adiabatico
+\series default
+ 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ contenitore che non scambia calore con l'ambiente esterno.
+\end_layout
+
 \begin_layout Subsection
 Equazione di Stato dei Gas Ideali
 \end_layout
@@ -2043,7 +2105,11 @@ Dove:
 \end_inset
 
 :
- Variazione dell'energia interna
+ Variazione dell'energia interna [
+\begin_inset Formula $J$
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Itemize
@@ -2063,7 +2129,11 @@ Dove:
 \end_inset
 
 :
- Lavoro
+ Lavoro [
+\begin_inset Formula $J$
+\end_inset
+
+]
 \end_layout
 
 \end_body
