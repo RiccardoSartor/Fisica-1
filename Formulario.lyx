@@ -1871,7 +1871,11 @@ Calore di un gas:
 \begin_inset Formula $J$
 \end_inset
 
-]
+] (oppure 
+\begin_inset Formula $Q=nC_{p}T$
+\end_inset
+
+)
 \end_layout
 
 \begin_layout Itemize
@@ -1887,6 +1891,18 @@ Calore di un gas:
 \end_layout
 
 \begin_layout Itemize
+\begin_inset Formula $T$
+\end_inset
+
+:
+ Temperatura [
+\begin_inset Formula $K$
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Formula $C_{v}:$
 \end_inset
 
@@ -1896,25 +1912,6 @@ Calore di un gas:
 \end_inset
 
  (è il calore specifico ma per i gas).
- Varia in base al tipo di gas:
-\begin_inset Newline newline
-\end_inset
-
-Gas monoatomici:
- 
-\begin_inset Formula $\frac{3}{2}R$
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Gas biatomici:
- 
-\begin_inset Formula $\frac{5}{2}R$
-\end_inset
-
-
 \begin_inset Newline newline
 \end_inset
 
@@ -1948,16 +1945,123 @@ Gas biatomici:
  mole
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $T$
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features borderColor="default" oddRowsColor="default" evenRowsColor="default" tabularvalignment="middle">
+<column alignment="center" valignment="top" color="default">
+<column alignment="center" valignment="top" color="default">
+<column alignment="center" valignment="top" color="default">
+<row color="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Gas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{v}$
 \end_inset
 
-:
- Temperatura [
-\begin_inset Formula $K$
+ (Volume costante)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{p}$
 \end_inset
 
-]
+ (Pressione costante)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row color="default">
+<cell alignment="center" valignment="top" topline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monoatomico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{3}{2}R\approx12,47\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}R\approx20,78\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row color="default">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Poliatomico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{5}{2}R\approx20,78\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" color="default" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{7}{2}R\approx29,10\frac{J}{mol*K}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -2233,7 +2337,7 @@ Trasformazione reversibile:
 \end_layout
 
 \begin_layout Subsection
-Equazione di Stato dei Gas Ideali
+Equazione di Stato (di equilibrio) dei Gas Ideali
 \end_layout
 
 \begin_layout Standard
