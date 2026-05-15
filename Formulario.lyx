@@ -1808,6 +1808,13 @@ Il teorema (applicazione diretta del teorema di Bernoulli) afferma che:
 Termodinamica
 \end_layout
 
+\begin_layout Standard
+\begin_inset Formula $P_{atm}=101325Pa\approx10^{5}Pa$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Calore
 \end_layout
@@ -2293,7 +2300,7 @@ Adiabatica
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $W=nC_{v}(T_{f}-T_{i})$
+\begin_inset Formula $W=nC_{v}(T_{i}-T_{f})$
 \end_inset
 
 
