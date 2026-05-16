@@ -2625,19 +2625,41 @@ Definisco con
  ovvero il grado di dispersione di energia all'interno di un sistema isolato
 \end_layout
 
-\begin_layout Subsubsection
-Trasformazione reversibile
+\begin_layout Standard
+Reversibile:
+ 
+\begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}=0$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}=0\Rightarrow\Delta S_{\text{ambiente}}=-\Delta S_{\text{gas}}$
+Irreversibile:
+ 
+\begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Entropia Gas
+\end_layout
+
+\begin_layout Standard
+Vale sempre (reversibile/irreversibile)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta S_{\text{gas}}=nC_{p}ln(\frac{V_{f}}{V_{i}})+nC_{v}ln(\frac{P_{f}}{P_{i}})$
 \end_inset
 
 
 \begin_inset Newline newline
 \end_inset
 
-Per i gas perfetti vale:
+In alternativa per i gas perfetti vale:
 \end_layout
 
 \begin_layout Itemize
@@ -2675,14 +2697,43 @@ in funzione di
 \end_layout
 
 \begin_layout Subsubsection
-Trasformazione irreversibile
+Entropia Ambiente
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $\Delta S_{amb}=-\frac{Q_{\text{gas}}}{T_{0}}$
+Reversibile:
+ 
+\begin_inset Formula $\Delta S_{\text{ambiente}}=-\Delta S_{\text{sistema}}$
 \end_inset
 
 
+\begin_inset Newline newline
+\end_inset
+
+Irreversibile:
+ 
+\begin_inset Formula $\Delta S_{\text{ambiente}}=-\frac{Q_{\text{ceduto/assorbito}}}{T_{\text{ambiente}}}$
+\end_inset
+
+ (Dove 
+\begin_inset Formula $T_{\text{ambiente}}$
+\end_inset
+
+ è di solito la 
+\begin_inset Formula $T$
+\end_inset
+
+ finale del gas nella trasformazione) 
+\bar under
+FUNZIONA SOLO SE 
+\bar default
+
+\begin_inset Formula $T_{\text{ambiente}}$
+\end_inset
+
+
+\bar under
+ RIMANE COSTANTE
 \end_layout
 
 \end_body
