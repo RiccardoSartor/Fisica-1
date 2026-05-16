@@ -2071,7 +2071,7 @@ Poliatomico
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Trasformazioni
 \end_layout
 
@@ -2533,6 +2533,156 @@ Dove:
 \end_inset
 
 ]
+\end_layout
+
+\begin_layout Subsection
+Rendimento
+\end_layout
+
+\begin_layout Standard
+In una macchina termica/frigorifera si ha che le varie trasformazioni del ciclo scambiano calore:
+ 
+\begin_inset Formula $Q=Q_{A}+Q_{C}$
+\end_inset
+
+ dove,
+ il primo è il calore assorbito e il secondo quello ceduto.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\eta=\frac{W}{Q_{A}}=\frac{Q_{A}+Q_{C}}{Q_{A}}=1+\frac{Q_{C}}{Q_{A}}=1-\frac{|Q_{C}|}{Q_{A}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Si noti che 
+\begin_inset Formula $0<\eta<1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Teorma di Carnot (Rendimento massimo)
+\end_layout
+
+\begin_layout Standard
+Per le macchine reversibili che lavorano con due sol sorgenti alle temperature 
+\begin_inset Formula $T_{1}$
+\end_inset
+
+ e 
+\begin_inset Formula $T_{2}$
+\end_inset
+
+ vale:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\eta=1-\frac{Q_{1}}{Q_{2}}=1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{Q_{1}}{T_{1}}+\frac{Q_{2}}{T_{2}}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Per una macchina termica qualsiasi vale:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\eta=1-\frac{Q_{1}}{Q_{2}}\leq1-\frac{T_{1}}{T_{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{Q_{1}}{T_{1}}+\frac{Q_{2}}{T_{2}}\leq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Entropia
+\end_layout
+
+\begin_layout Standard
+Definisco con 
+\begin_inset Formula $S$
+\end_inset
+
+ l'entropia,
+ ovvero il grado di dispersione di energia all'interno di un sistema isolato
+\end_layout
+
+\begin_layout Subsubsection
+Trasformazione reversibile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}=0\Rightarrow\Delta S_{\text{ambiente}}=-\Delta S_{\text{gas}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Per i gas perfetti vale:
+\end_layout
+
+\begin_layout Itemize
+in funzione di 
+\begin_inset Formula $T$
+\end_inset
+
+ e 
+\begin_inset Formula $V$
+\end_inset
+
+:
+ 
+\begin_inset Formula $\Delta S_{\text{gas}}=nC_{v}*ln(\frac{T_{f}}{T_{i}})+nR*ln(\frac{V_{f}}{V_{i}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+in funzione di 
+\begin_inset Formula $T$
+\end_inset
+
+ e 
+\begin_inset Formula $P$
+\end_inset
+
+:
+ 
+\begin_inset Formula $\Delta S_{\text{gas}}=nC_{p}*ln(\frac{T_{f}}{T_{i}})-nR*ln(\frac{P_{f}}{P_{i}})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Trasformazione irreversibile
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta S_{amb}=-\frac{Q_{\text{gas}}}{T_{0}}$
+\end_inset
+
+
 \end_layout
 
 \end_body
