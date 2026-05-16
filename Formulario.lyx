@@ -93,7 +93,7 @@
 \topmargin 2cm
 \rightmargin 1cm
 \bottommargin 2cm
-\secnumdepth 1
+\secnumdepth 0
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
@@ -1815,6 +1815,10 @@ Termodinamica
 
 \end_layout
 
+\begin_layout Section
+I Legge Termodinamica
+\end_layout
+
 \begin_layout Subsection
 Calore
 \end_layout
@@ -2535,6 +2539,10 @@ Dove:
 ]
 \end_layout
 
+\begin_layout Section
+II Legge Termodinamica
+\end_layout
+
 \begin_layout Subsection
 Rendimento
 \end_layout
@@ -2734,6 +2742,51 @@ FUNZIONA SOLO SE
 
 \bar under
  RIMANE COSTANTE
+\end_layout
+
+\begin_layout Subsection
+Teorema di Gouy-Stodola (Energia inutilizzabile)
+\end_layout
+
+\begin_layout Standard
+Quantità di calore che,
+ a causa delle irreversibilità di una trasformazione,
+ viene 
+\begin_inset Quotes eld
+\end_inset
+
+sprecata
+\begin_inset Quotes erd
+\end_inset
+
+ e non potrà mai piú essere trasformata in lavoro utile.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{IN}=T_{0}\Delta S_{\text{universo}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dove:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{0}$
+\end_inset
+
+:
+ temperatura della sorgente piú fredda con cui il sistema scambia calore
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta S_{\text{universo}}$
+\end_inset
+
+:
+ variazione di entropia dell'universo
 \end_layout
 
 \end_body
