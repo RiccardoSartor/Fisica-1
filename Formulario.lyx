@@ -2806,7 +2806,7 @@ Energia inutilizzabile
 \end_inset
 
 Dato che nelle reversibili si ha che 
-\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta a=0$
+\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta S_{a}=0$
 \end_inset
 
  
@@ -2818,10 +2818,10 @@ Dato che nelle reversibili si ha che
 \end_inset
 
 Dato che nelle irreversibili si ha che 
-\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta a>0$
+\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta S_{a}>0$
 \end_inset
 
-  
+ 
 \begin_inset Formula $\Rightarrow E_{IN}>0$
 \end_inset
 
