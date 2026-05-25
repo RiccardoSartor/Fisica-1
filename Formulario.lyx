@@ -2711,7 +2711,7 @@ Entropia Ambiente
 \begin_layout Standard
 Reversibile:
  
-\begin_inset Formula $\Delta S_{\text{ambiente}}=-\Delta S_{\text{sistema}}$
+\begin_inset Formula $\Delta S_{\text{ambiente}}=-\Delta S_{\text{gas}}$
 \end_inset
 
 
@@ -2787,6 +2787,45 @@ Dove:
 
 :
  variazione di entropia dell'universo
+\end_layout
+
+\begin_layout Subsection
+Energia inutilizzabile
+\end_layout
+
+\begin_layout Standard
+È l'energia persa a causa delle trasformazioni irreversibili.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $E_{IN}=T_{\text{ambiente}}*\Delta S_{\text{universo}}$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dato che nelle reversibili si ha che 
+\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta a=0$
+\end_inset
+
+ 
+\begin_inset Formula $\Rightarrow E_{IN}=0$
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Dato che nelle irreversibili si ha che 
+\begin_inset Formula $\Delta S_{u}=\Delta S_{g}+\Delta a>0$
+\end_inset
+
+  
+\begin_inset Formula $\Rightarrow E_{IN}>0$
+\end_inset
+
+
 \end_layout
 
 \end_body
