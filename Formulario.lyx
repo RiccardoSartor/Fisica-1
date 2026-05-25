@@ -2577,7 +2577,7 @@ Teorma di Carnot (Rendimento massimo)
 \end_layout
 
 \begin_layout Standard
-Per le macchine reversibili che lavorano con due sol sorgenti alle temperature 
+Per le macchine reversibili che lavorano con due sole sorgenti alle temperature 
 \begin_inset Formula $T_{1}$
 \end_inset
 
@@ -2639,6 +2639,10 @@ Reversibile:
 \begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}=0$
 \end_inset
 
+ 
+\begin_inset Formula $[\frac{J}{K}]$
+\end_inset
+
 
 \end_layout
 
@@ -2646,6 +2650,10 @@ Reversibile:
 Irreversibile:
  
 \begin_inset Formula $\Delta S_{\text{Universo}}=\Delta S_{\text{ambiente}}+\Delta S_{\text{gas}}>0$
+\end_inset
+
+ 
+\begin_inset Formula $[\frac{J}{K}]$
 \end_inset
 
 
@@ -2661,6 +2669,10 @@ Vale sempre (reversibile/irreversibile)
 
 \begin_layout Standard
 \begin_inset Formula $\Delta S_{\text{gas}}=nC_{p}ln(\frac{V_{f}}{V_{i}})+nC_{v}ln(\frac{P_{f}}{P_{i}})$
+\end_inset
+
+ 
+\begin_inset Formula $[\frac{J}{K}]$
 \end_inset
 
 
@@ -2684,6 +2696,10 @@ in funzione di
 \begin_inset Formula $\Delta S_{\text{gas}}=nC_{v}*ln(\frac{T_{f}}{T_{i}})+nR*ln(\frac{V_{f}}{V_{i}})$
 \end_inset
 
+ 
+\begin_inset Formula $[\frac{J}{K}]$
+\end_inset
+
 
 \end_layout
 
@@ -2701,6 +2717,10 @@ in funzione di
 \begin_inset Formula $\Delta S_{\text{gas}}=nC_{p}*ln(\frac{T_{f}}{T_{i}})-nR*ln(\frac{P_{f}}{P_{i}})$
 \end_inset
 
+ 
+\begin_inset Formula $[\frac{J}{K}]$
+\end_inset
+
 
 \end_layout
 
@@ -2714,6 +2734,10 @@ Reversibile:
 \begin_inset Formula $\Delta S_{\text{ambiente}}=-\Delta S_{\text{gas}}$
 \end_inset
 
+ 
+\begin_inset Formula $[\frac{J}{K}]$
+\end_inset
+
 
 \begin_inset Newline newline
 \end_inset
@@ -2721,6 +2745,10 @@ Reversibile:
 Irreversibile:
  
 \begin_inset Formula $\Delta S_{\text{ambiente}}=-\frac{Q_{\text{ceduto/assorbito}}}{T_{\text{ambiente}}}$
+\end_inset
+
+ 
+\begin_inset Formula $[\frac{J}{K}]$
 \end_inset
 
  (Dove 
@@ -2766,7 +2794,11 @@ sprecata
 \begin_inset Formula $E_{IN}=T_{0}\Delta S_{\text{universo}}$
 \end_inset
 
+ [
+\begin_inset Formula $J$
+\end_inset
 
+]
 \begin_inset Newline newline
 \end_inset
 
@@ -2801,7 +2833,11 @@ Energia inutilizzabile
 \begin_inset Formula $E_{IN}=T_{\text{ambiente}}*\Delta S_{\text{universo}}$
 \end_inset
 
+ [
+\begin_inset Formula $J$
+\end_inset
 
+]
 \begin_inset Newline newline
 \end_inset
 
